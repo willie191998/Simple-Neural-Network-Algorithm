@@ -1,4 +1,4 @@
-##Vanilla Neural Network in C++
+#Vanilla Neural Network in C++
 
 #Overview This project implements a simple vanilla neural network algorithm using C++. The network utilizes forward propagation and backpropagation for training and supports regularization techniques to reduce overfitting and improve output accuracy. The neural network is highly customizable, allowing you to adjust its structure to include between 3 to 7 layers and handle up to 50,000 parameters.
 
@@ -13,6 +13,8 @@ Performance: Fast training, completing 50,000 iterations in approximately 20 sec
 Fully Native Implementation: Written entirely in C++. No external libraries used; all functionalities, including matrix multiplication, are implemented from scratch.
 
 Regularization: Built-in regularization to minimize overfitting and enhance the model's generalization capabilities.
+
+Atention: It uses a simple attention mechanism, with best effort to score which input to use sfor determining the output.
 
 #How It Works The neural network is trained using forward propagation to compute the output, followed by backpropagation to adjust the weights based on the error. The network includes regularization to penalize large weights, which helps in reducing overfitting and improving the overall performance on unseen data.
 
